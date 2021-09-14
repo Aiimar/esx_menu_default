@@ -1,0 +1,154 @@
+
+/* MADE BY SLIZZARN - DISCORD: slizzarn#1144 GITHUB: https://github.com/slizzarn-fivem */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@font-face {
+  font-family: font33;
+  src: url(https://cdn.discordapp.com/attachments/797530806243295272/872501048630194196/BoxedMedium.ttf);
+}
+
+.menu {
+	font-family: font33;
+	min-width: 300px;
+  opacity: 80%;
+  color: #000000;
+  position: absolute;
+  padding: 8px;
+  background: #000000;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 0px 2px 0px 3px rgb(0, 0, 0);
+}
+
+.head {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu .head {
+  font-family: font33;
+	text-align: center;
+	/*height: 30px;*/
+  color: #ffffff;
+  font-weight: 300px;
+	line-height: 27px;
+  font-size: 18px;
+}
+
+.menu .menu-items {
+  transition:  background-color ease 0.2s, color ease 0.2s;
+  max-height: 520px;
+	overflow-y: auto;
+  font-weight: 500;
+}
+
+.menu .menu-items .menu-item {
+  transition:  background-color ease 0.2s, color ease 0.2s;
+	display: block;
+  padding: 6px;
+  font-size: 14px;
+	text-align: left;
+  text-indent: 5px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  color: #b6b6b6;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 0px 2px 0px 3px rgb(0, 0, 0)
+  /*border: 2px solid #3d3d3d;*/
+}
+
+.menu .menu-items .menu-item.selected {
+  transition:  background-color ease 0.2s, color ease 0.2s;
+  background-color: rgba(255, 255, 255, 0.60);
+  color: #000000f1;
+}
+
+.head > span {
+  position: relative;
+  display: inline-block;
+}
+
+.head > span::before {
+  right: 105%;
+  margin-right: 15px;
+}
+
+.head > span::after {
+  left: 105%;
+  margin-left: 15px;
+}
+
+
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 160;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* WebKit scrollbar properties */
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #00000005;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1a242d;
+}
+
+/* Edited by ! Aiimar#1234 */
